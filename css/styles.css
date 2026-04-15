@@ -602,6 +602,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .close-btn {
+    fill: #2e2f42;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -617,10 +618,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover,
-.close-btn:focus {
+.close-btn:focus,
+.close-icon:hover,
+.close-icon:focus {
     background-color: #404bbf;
-    fill: white;
     border: none;
+    fill: white;
 }
 
 .text-modal {
@@ -644,13 +647,14 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: column;
     gap: 8px;
     border-radius: 4px;
-    width: 360px;
+    max-width: 360px;
     height: 336px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .input-item {
+    margin-top: 4px;
     width: 360px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -756,6 +760,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-false {
+    opacity: 0;
     fill: transparent;
     width: 16px;
     height: 16px;
