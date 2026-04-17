@@ -663,7 +663,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: #fcfcfc;
-    padding-left: 36px;
+    padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -681,6 +681,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-icon {
+    fill: #2e2f42;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
